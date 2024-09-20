@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.inp-section{
+    position: fixed;
+    height: 100vh;
+    width: 30%;
+    background-color:#98D7C2;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    inset: 0;
+
+}
+.inp-section h2{
+    margin-top: 20px;
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.inp-section .inp{
+    width: 90%;
+    height: 50px;
+    text-align: center;
+    border: 2px solid black;
+    margin: 10px;
+    cursor: pointer;
+    padding-top: 12px;
+    border-radius: 15px;
+}
+
+.inp-section .inp:hover{
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.8);
+    border-radius: 10px;
+    border: none;
+}
+
+.out-section{
+    position: fixed;
+    height: 100vh;
+    width: 70%;
+    margin-left: 30%;
+    inset: 0;
+    background-color: #DDFFE7;
+   /* background: linear-gradient(45deg,#98D7C2,#167D7F); */
+}
+
+.box-heading{
+    position: relative;
+    height: 20%;
+    font-size: 4rem;
+    text-align: center;
+    padding: 1rem;
+    margin: 10px;
+}
+
+.box{
+    padding-top: .5rem;
+    height: 120px;
+    width: 200px;
+    background-color: #167D7F;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.4);
+    font-size: 22px;
+    text-align: center;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.row1 , .row2 ,.row3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+div h2{
+    margin-top: 20px;
+    font-size: 25px;
+   
+}
+
+#sip-cal{
+    text-decoration: none;
+    padding-top: 20px;
+    color: white;
+}
