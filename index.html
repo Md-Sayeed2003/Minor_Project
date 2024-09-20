@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Financial Navigator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header id="header">
+        <nav class="navbar">
+            <div class="logo">Financial Navigator</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#calculator">Calculator</a></li>
+                <li><a href="#expense-section">Expense-Tracker</a></li>
+                <li><a href="#investment-box">Investment</a></li>
+                <li><a href="#tax-calculation-section">Tax Calculator</a></li>
+            </ul>
+            <div class="nav-buttons">
+                <a href="#" class="btn login-btn">Login</a>
+                <a href="#" class="btn signup-btn">Sign Up</a>
+            </div>
+            <div class="hamburger" onclick="toggleMenu()">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Content Sections -->
+    <section id="home" class="section bg1">
+        <div class="home-content">
+            <h1>Welcome to Financial Navigation</h1>
+        </div>
+
+
+    </section>
+
+    <section id="calculator" class="section bg2">
+        <h2>Finance Calculators</h2>
+
+        <div class="calculator-grid">
+            <!-- EMI Calculator -->
+            <div class="calculator-box">
+                <h3>EMI Calculator</h3>
+                <p>Calculate your monthly installment for loans.</p>
+                <button class="launch-btn"><a href="Calculators/EMI/emi-calculator.html" target="_blank">Launch Calculator</a></button>
+            </div>
+            <!-- SIP Calculator -->
+            <div class="calculator-box">
+                <h3>SIP Calculator</h3>
+                <p>Plan your investments with a Systematic Investment Plan.</p>
+                <button class="launch-btn"><a href="Calculators/SIP/sip-calculator.html" target="_blank">Launch Calculator</a></button>
+            </div>
+            <!-- Education Loan Calculator -->
+            <div class="calculator-box">
+                <h3>Education Loan Calculator</h3>
+                <p>Calculate repayments for your education loans.</p>
+                <button class="launch-btn"><a href="/Calculators/Education-loan/index.html" target="_blank">Launch Calculator</a></button>
+            </div>
+            <!-- Personal Loan Calculator -->
+            <div class="calculator-box">
+                <h3>Personal Loan Calculator</h3>
+                <p>Estimate monthly repayments for personal loans.</p>
+                <button class="launch-btn"><a href="/Calculators/Personal-loan/index.html" target="_blank">Launch Calculator</a></button>
+
+            </div>
+            <!-- Home Loan Calculator -->
+            <div class="calculator-box">
+                <h3>Home Loan Calculator</h3>
+                <p>Calculate your mortgage payments and interest.</p>
+                <button class="launch-btn">Launch Calculator</button>
+            </div>
+            <!-- Car Loan Calculator -->
+            <div class="calculator-box">
+                <h3>Car Loan Calculator</h3>
+                <p>Plan your car loan repayments and interest.</p>
+                <button class="launch-btn">Launch Calculator</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="investment-box" class="section bg1">
+        <h2 class="inv-h2">Investment</h2>
+        <div class="investment-grid">
+            <!-- Investment Option 1 -->
+            <div class="investment-box">
+                <h3>ELSS Funds</h3>
+                <p>Invest in a diverse range of stocks to build your portfolio.</p>
+                <button class="inv-btn"><a href="Tax-Saving-fund/index.html" target="_blank">Learn More</a></button>
+            </div>
+            <!-- Investment Option 2 -->
+            <div class="investment-box">
+                <h3>Mutual Funds</h3>
+                <p>Explore various mutual fund options for long-term growth.</p>
+                <button class="inv-btn">Learn More</button>
+            </div>
+            <!-- Investment Option 3 -->
+            <div class="investment-box">
+                <h3>Fixed Deposits</h3>
+                <p>Invest in real estate properties for steady returns.</p>
+                <button class="inv-btn">Learn More</button>
+            </div>
+            <!-- Investment Option 4 -->
+            <div class="investment-box">
+                <h3>Bonds</h3>
+                <p>Secure your future with government and corporate bonds.</p>
+                <button class="inv-btn">Learn More</button>
+            </div>
+            <!-- Investment Option 5 -->
+            <div class="investment-box">
+                <h3>Gold</h3>
+                <p>Invest in gold for a stable and reliable financial future.</p>
+                <button class="inv-btn">Learn More</button>
+            </div>
+            <!-- Investment Option 6 -->
+            <div class="investment-box">
+                <h3>Cryptocurrency</h3>
+                <p>Explore the potential of investing in digital currencies.</p>
+                <button class="inv-btn">Learn More</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="expense-section" class="expense-section section bg2">
+        <a href="/Budget/index.html" class="expense-box" target="_blank">Track Your Expense</a>
+        <p class="expense-description">
+            Stay on top of your finances by tracking your daily, weekly, and monthly expenses. 
+            Make informed decisions and manage your budget efficiently.
+        </p>
+    </section>
+
+    <section id="financial-topic" class="financial-topics section bg2">
+        <div class="topic-box">
+            <h3>SIP (Systematic Investment Plan)</h3>
+            <a href="https://www.etmoney.com/learn/mutual-funds/what-is-sip/" target="_blank" class="read-more-btn">Read More</a>
+        </div>
+    
+        <div class="topic-box">
+            <h3>Mutual Fund</h3>
+            <a href="https://www.investopedia.com/terms/m/mutualfund.asp" target="_blank" class="read-more-btn">Read More</a>
+        </div>
+    
+        <div class="topic-box">
+            <h3>Financial Management</h3>
+            <a href="https://www.netsuite.com/portal/resource/articles/financial-management/financial-management.shtml" target="_blank" class="read-more-btn">Read More</a>
+        </div>
+    
+        <div class="topic-box">
+            <h3>Cryptocurrency</h3>
+            <a href="https://www.investopedia.com/terms/c/cryptocurrency.asp" target="_blank" class="read-more-btn">Read More</a>
+        </div>
+    
+        <div class="topic-box">
+            <h3>Stock Market</h3>
+            <a href="https://www.investopedia.com/terms/s/stockmarket.asp" target="_blank" class="read-more-btn">Read More</a>
+        </div>
+    
+        <div class="topic-box">
+            <h3>Investment Strategies</h3>
+            <a href="https://www.investopedia.com/articles/stocks/06/investstrategies.asp" target="_blank" class="read-more-btn">Read More</a>
+        </div>
+    </section>
+    
+    
+
+    <section id="tax-calculation-section" class="section bg1">
+        <h2>Tax Calculation</h2>
+        <form id="tax-form">
+            <!-- Step 1: Income Details -->
+            <div class="step" id="step-1">
+                <h3>Step 1: Enter Your Income Details</h3>
+                <label for="annual-income">Annual Income (₹):</label>
+                <input type="number" id="annual-income" required>
+                
+                <label for="other-income">Other Income (₹):</label>
+                <input type="number" id="other-income" required>
+                
+                <button type="button" onclick="nextStep(2)">Next</button>
+            </div>
+    
+            <!-- Step 2: Deductions -->
+            <div class="step" id="step-2" style="display: none;">
+                <h3>Step 2: Enter Deductions</h3>
+                <label for="deductions">Total Deductions (₹):</label>
+                <input type="number" id="deductions" required>
+                
+                <button type="button" onclick="previousStep(1)">Previous</button>
+                <button type="button" onclick="nextStep(3)">Next</button>
+            </div>
+    
+            <!-- Step 3: Tax Calculation -->
+            <div class="step" id="step-3" style="display: none;">
+                <h3>Step 3: Calculate Your Tax</h3>
+                <button type="button" onclick="calculateTax()">Calculate Tax</button>
+                <div id="result" style="margin-top: 20px;"></div>
+    
+                <button type="button" onclick="previousStep(2)">Previous</button>
+            </div>
+        </form>
+    </section>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
