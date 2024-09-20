@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Loan</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+
+        <div class="content-box">
+            <div class="heading">
+                <h2>Personal Loan </h2>
+            </div>
+
+            <div class="input-section">
+                <label for="amount">Loan Amount</label>
+                <input type="number" id="amount" placeholder="Enter your loan amount">
+            </div>
+
+            <div class="input-section">
+                <label for="interest">Interst Rate</label>
+                <input type="number" id="interest" placeholder="Enter your interest rate">
+            </div>
+
+            <div class="input-section">
+                <label for="duration">Months to pay</label>
+                <input type="number" id="duration" placeholder="Months to pay">
+            </div>
+
+            <button id="calculate">Calculate</button>
+
+            <div class="result">
+                <p>Your Monthly installment is <span id="output"></span></p>
+                
+            </div>
+            
+        </div>
+    </div>
+    
+
+    <script src="app.js"></script>
+</body>
+</html>
